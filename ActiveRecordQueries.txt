@@ -1,0 +1,27 @@
+Answer 1
+Album.where(artist_id: Artist.find_by(name: "Queen").id)
+
+Answer 2
+Track.where(media_type_id: MediaType.find_by(name: "Protected MPEG-4 video file").id).count
+
+Answer 3
+Track.where(media_type_id: MediaType.find_by(name: "Protected MPEG-4 video file").id).count
+
+Answer 4
+Track.where(media_type_id: MediaType.find_by(name: "Protected MPEG-4 video file").id).count
+
+Answer 5
+Track.sum(:milliseconds)
+
+Answer 6
+Track.where(media_type_id: MediaType.find_by(name:  "MPEG audio file").id).all.maximum(:unit_price)
+
+Answer 7
+Track.where(media_type_id: MediaType.find_by(name:  "MPEG audio file").id).all.order(unit_price: :desc)[0].name
+
+Answer 8
+Artist.order(:created_at)[1..2]
+
+Answer 9
+
+Answer 10

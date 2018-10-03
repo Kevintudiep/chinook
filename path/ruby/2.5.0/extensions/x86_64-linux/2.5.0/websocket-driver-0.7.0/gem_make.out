@@ -1,0 +1,15 @@
+current directory: /home/kevin/Desktop/BitMaker/projects/Week5/chinook/path/ruby/2.5.0/gems/websocket-driver-0.7.0/ext/websocket-driver
+/usr/bin/ruby2.5 -r ./siteconf20181002-3426-22k8o1.rb extconf.rb
+creating Makefile
+
+current directory: /home/kevin/Desktop/BitMaker/projects/Week5/chinook/path/ruby/2.5.0/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /home/kevin/Desktop/BitMaker/projects/Week5/chinook/path/ruby/2.5.0/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/kevin/Desktop/BitMaker/projects/Week5/chinook/path/ruby/2.5.0/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20181002-3426-1fw2e85
